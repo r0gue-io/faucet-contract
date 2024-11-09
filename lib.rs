@@ -101,7 +101,7 @@ mod fungibles {
 
 		/// Check if faucet holds enough balance to drip.
 		fn can_withdraw(&self) -> Result<(), FaucetError> {
-			// Don't let balance go under 1.
+			// Don't let balance go lower than 1.
 			if self.drip_amount.saturating_add(1) >= self.env().balance() {
 				return Err(FaucetError::NotEnoughFunds);
 			}
