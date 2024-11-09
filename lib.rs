@@ -3,12 +3,6 @@
 use ink::{
 	storage::Mapping,
 };
-use pop_api::{
-	primitives::TokenId,
-	v0::fungibles::{
-		self as api,
-	},
-};
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 #[ink::scale_derive(Encode, Decode, TypeInfo)]
