@@ -100,3 +100,8 @@ fn can_withdraw(&self) -> Result<(), FaucetError> {
     Ok(())
 }
 ```
+
+## Next steps
+- [ ] Integrate [`pop-api::fungibles`](https://github.com/r0gue-io/pop-node/tree/main/pop-api/src/v0/fungibles) to convert the faucet in a generic token faucet.
+- - Allow users to register new tokens to be distributed by this faucet.
+- [ ] Integrate [`pop-api::messaging`](https://github.com/r0gue-io/pop-node/tree/sub0/pop-api/src/v0/messaging) to distribute anything registered in the faucet across chains.
