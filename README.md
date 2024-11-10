@@ -14,7 +14,7 @@ To interact with it through https://contracts.onpop.io/.
 
 Call `drip()` and get some tokens!
 
-If you want to call this faucet contract from another contract, please refer to: https://use.ink/4.x/basics/cross-contract-calling
+If you want to call this faucet contract from another contract, please refer to: https://use.ink/basics/cross-contract-calling
 
 ---
 
